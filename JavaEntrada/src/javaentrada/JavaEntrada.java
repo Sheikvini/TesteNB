@@ -19,7 +19,7 @@ public class JavaEntrada {
           } 
           
           else {
-              System.out.print("Você possui carteira de estudante? (S/N): ");
+              System.out.print("Você possui uma carteira de estudante? (S/N): ");
               char resposta = scanner.next().charAt(0);
               if (resposta == 'S' || resposta == 's') {
                   meiaEntrada = true;
@@ -37,6 +37,7 @@ public class JavaEntrada {
           }
           
           System.out.println("Valor do ingresso: R$ " + valorFinal);
+          System.out.println("Bom passeio! ");
          scanner.close();
       }
   }
